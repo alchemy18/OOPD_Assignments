@@ -1,6 +1,6 @@
 **Files in the Project**
 
-questions1.cpp: The main source file containing the logic for calculating LTCG tax.
+questions2.cpp: The main source file containing the logic for calculating LTCG tax.
 Makefile: The Makefile used to compile and generate binaries for the project.
 price-inflation - price-inflation.csv: The CSV input file that contains data on growth rates and inflation rates for each year. This file is required for the program to work correctly.
 
@@ -20,18 +20,20 @@ Make utility
 
 To build and run both versions (Debug and Optimized):
 make
-./question1_debug
-./question1_optimized
+./question2_debug
+./question2_optimized
 
 To build and run only the debugging version:
-make question1_debug
-./question1_debug
+make question2_debug
+./question2_debug
 
 To build only the optimized version:
-make question1_optimized
-./question1_optimized
+make question2_optimized
+./question2_optimized
 
 Note: I have used LLM powered chatbot for writing this code. 
+
+
 
 
 
