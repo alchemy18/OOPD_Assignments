@@ -1,4 +1,4 @@
-# Compiler
+# Compiler --branch
 CXX = g++
 CXXFLAGS = -std=c++11 -Wall
 
