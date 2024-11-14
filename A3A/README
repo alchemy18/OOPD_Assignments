@@ -1,0 +1,29 @@
+# Indian Railways Library and Test Program
+
+This project provides a C++ library to simulate an Indian Railways management system. The library includes classes for `Platform`, `Line`, and `Station`, with support for managing railway lines, platforms, and stations. A test program (`main.cpp`) allows users to add, view, and manage stations.
+
+## Project Structure
+
+- **IndianRailways.h**: Header file defining the classes and functions for the library.
+- **IndianRailways.cpp**: Implementation file for the library functions and methods.
+- **main.cpp**: Test program that provides a menu-driven interface for interacting with the library.
+- **Makefile**: A `Makefile` to compile and link the library and the test program.
+
+## Requirements
+
+- **Compiler**: `g++` (preferably with C++11 or later support)
+
+## Compilation and Execution
+
+### Using the Makefile
+
+The `Makefile` automates the compilation and linking process. It has three main targets:
+
+1. **Build the Test Program**: To compile and link the library with the test program, simply run:
+
+   make
+   make clean
+   ./IndianRailwaysTest
+
+   # note: used chat-gpt for coding help
+  
