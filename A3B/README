@@ -1,0 +1,10 @@
+// to run program 1
+
+// g++ -std=c++11 -I/Users/pragya/Document/include -L/Users/pragya/Document/lib -lboost_system program1.cpp -o program1
+// export DYLD_LIBRARY_PATH=/Users/pragya/Document/lib:$DYLD_LIBRARY_PATH
+// ./program1
+
+
+// to run program 2
+// g++ program2.cpp -o program2_out -l sqlite3
+// ./program2_out
