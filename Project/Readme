@@ -1,0 +1,26 @@
+Class Structure:
+
+Device: Base class for devices.
+UserDevice and AccessPoint: Inherit from Device.
+Packet: Represents data packets with timestamps for latency calculation.
+FrequencyChannel: Models the frequency channel with sub-channel management.
+
+
+Functionality:
+
+Devices can send and receive packets.
+Packet class allows for accurate latency measurements.
+FrequencyChannel manages channel state and sub-channel allocations.
+
+To build and run the simulator:
+Compile:
+
+ make
+
+Run:
+
+ ./wifi_simulator 10
+ Replace 10 with 1 or 100 for different user scenarios.
+
+ #note: the code is developed with help of open-source LLM
+
