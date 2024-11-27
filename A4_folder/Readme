@@ -1,0 +1,15 @@
+File structure:
+
+Data folder contains data files
+SRC folder contains source files
+Obj folder contains object file
+
+To run
+
+make
+make clean
+
+./publication_manager_optimized
+
+
+#code was designed with help of open-source llm
